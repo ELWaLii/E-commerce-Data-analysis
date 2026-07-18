@@ -5,18 +5,13 @@ GO
 USE EcommerceDB;
 GO
 
--- ==============================================================================
--- 1. INDEPENDENT TABLES (No Foreign Keys)
--- ==============================================================================
 
--- Create Categories Table
 CREATE TABLE Categories (
     CategoryID INT IDENTITY(1,1) PRIMARY KEY,
     CategoryName VARCHAR(255) NOT NULL,
     Description NVARCHAR(MAX) NULL
 );
 
--- Create Suppliers Table
 CREATE TABLE Suppliers (
     SupplierID INT IDENTITY(1,1) PRIMARY KEY,
     CompanyName VARCHAR(255) NOT NULL,
@@ -27,24 +22,6 @@ CREATE TABLE Suppliers (
     Country VARCHAR(100) NULL
 );
 
--- Create Customers Table
-CREATE TABLE Customers (
-    CustomerID INT IDENTITY(1,1) PRIMARY KEY,
-    FirstName VARCHAR(100) NOT NULL,
-    LastName VARCHAR(100) NOT NULL,
-    Email VARCHAR(255) NULL,
-    Phone VARCHAR(100) NULL,
-    Address NVARCHAR(500) NULL,
-    City VARCHAR(100) NULL,
-    Country VARCHAR(100) NULL,
-    JoinDate DATE NULL
-);
-
--- ==============================================================================
--- 2. DEPENDENT TABLES (Contains Foreign Keys)
--- ==============================================================================
-
--- Create Products Table
 CREATE TABLE Products (
     ProductID INT IDENTITY(1,1) PRIMARY KEY,
     ProductName NVARCHAR(255) NOT NULL,
@@ -57,7 +34,18 @@ CREATE TABLE Products (
     CONSTRAINT FK_Products_Suppliers FOREIGN KEY (SupplierID) REFERENCES Suppliers(SupplierID)
 );
 
--- Create Orders Table
+CREATE TABLE Customers (
+    CustomerID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName VARCHAR(100) NOT NULL,
+    LastName VARCHAR(100) NOT NULL,
+    Email VARCHAR(255) NULL,
+    Phone VARCHAR(100) NULL,
+    Address NVARCHAR(500) NULL,
+    City VARCHAR(100) NULL,
+    Country VARCHAR(100) NULL,
+    JoinDate DATE NULL
+);
+
 CREATE TABLE Orders (
     OrderID INT IDENTITY(1,1) PRIMARY KEY,
     CustomerID INT NOT NULL,
@@ -66,11 +54,6 @@ CREATE TABLE Orders (
     CONSTRAINT FK_Orders_Customers FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
 
--- ==============================================================================
--- 3. WEAK ENTITIES (Depends on Orders and Products)
--- ==============================================================================
-
--- Create Order Details Table
 CREATE TABLE Order_Details (
     OrderDetailID INT IDENTITY(1,1) PRIMARY KEY,
     OrderID INT NOT NULL,
@@ -83,7 +66,6 @@ CREATE TABLE Order_Details (
     CONSTRAINT FK_OrderDetails_Products FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
 );
 
--- Create Payments Table
 CREATE TABLE Payments (
     PaymentID INT IDENTITY(1,1) PRIMARY KEY,
     OrderID INT NOT NULL UNIQUE,
@@ -94,9 +76,9 @@ CREATE TABLE Payments (
     CONSTRAINT FK_Payments_Orders FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
 );
 
--- Create Shipments Table
 CREATE TABLE Shipments (
     shipment_id INT IDENTITY(1,1) PRIMARY KEY,
+    OrderID INT NOT NULL UNIQUE, 
     shipper_id INT NULL,
     service_id VARCHAR(50) NULL,
     weight_kg DECIMAL(10,2) NULL,
@@ -104,7 +86,6 @@ CREATE TABLE Shipments (
     delivery_date DATE NULL,
     status VARCHAR(50) NOT NULL,
     shipping_cost DECIMAL(10,2) NULL,
-    OrderID INT NOT NULL UNIQUE, 
     CONSTRAINT FK_Shipments_Orders FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
 );
 GO

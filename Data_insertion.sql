@@ -1,3 +1,6 @@
+USE EcommerceDB;
+GO
+
 BULK INSERT Categories
 FROM 'D:\E_commerce_Data_Analysis\Fianal_Data_Set\Categories.csv'
 WITH (FORMAT = 'CSV', FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', KEEPIDENTITY);

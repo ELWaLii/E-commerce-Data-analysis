@@ -1,11 +1,8 @@
 USE EcommerceDB;
 GO
 
--- ==============================================================================
--- 1. Order Summary View
--- WHAT IT DOES: Shows each order with its total amount (summing up the order details).
--- ==============================================================================
-CREATE VIEW Order_Summary AS
+-- 1. vw_OrderSummary
+CREATE VIEW vw_OrderSummary AS
 SELECT  
     O.OrderID,  
     O.CustomerID, 
@@ -21,11 +18,8 @@ GROUP BY
     O.OrderStatus;
 GO
 
--- ==============================================================================
--- 2. Product Sales View
--- WHAT IT DOES: Calculates total quantity sold and total revenue for each product.
--- ==============================================================================
-CREATE VIEW Product_Sales AS
+-- 2. vw_ProductSales
+CREATE VIEW vw_ProductSales AS
 SELECT 
     P.ProductID, 
     P.ProductName, 
@@ -38,29 +32,21 @@ GROUP BY
     P.ProductName;
 GO
 
--- ==============================================================================
--- 3. Customers Orders View
--- WHAT IT DOES: Shows all customers and the total number of orders they placed.
--- ==============================================================================
-CREATE VIEW Customers_Orders AS
+-- 3. vw_CustomerOrders
+CREATE VIEW vw_CustomerOrders AS
 SELECT  
     C.CustomerID,
-    C.FirstName + ' ' + C.LastName AS FullName, 
+    C.FirstName, 
     COUNT(O.OrderID) AS Total_orders 
 FROM Customers C 
 LEFT JOIN Orders O ON C.CustomerID = O.CustomerID
 GROUP BY 
     C.CustomerID,
-    C.FirstName, 
-    C.LastName;
+    C.FirstName;
 GO
 
--- ==============================================================================
--- 4. Available Stock View
--- WHAT IT DOES: Shows the current available stock and price for each product.
--- (Fixed: No need to join with Order_Details to know available stock, it's in Products)
--- ==============================================================================
-CREATE VIEW Available_Stock AS
+-- 4. vw_InventoryStatus
+CREATE VIEW vw_InventoryStatus AS
 SELECT 
     ProductID, 
     ProductName, 
