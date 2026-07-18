@@ -1,0 +1,66 @@
+{
+    "name": "Neon Ecommerce High Contrast",
+    "dataColors": [
+        "#00FF87",
+        "#00C6FF",
+        "#D4FF00",
+        "#008CB3",
+        "#00B25E",
+        "#95B300",
+        "#4DD6FF",
+        "#FFFFFF"
+    ],
+    "background": "#000000",
+    "foreground": "#FFFFFF",
+    "tableAccent": "#00FF87",
+    "textClasses": {
+        "callout": {
+            "fontFace": "Montserrat",
+            "color": "#00FF87",
+            "fontSize": 24
+        },
+        "title": {
+            "fontFace": "Montserrat",
+            "color": "#FFFFFF",
+            "fontSize": 12
+        },
+        "header": {
+            "fontFace": "Montserrat",
+            "color": "#00C6FF",
+            "fontSize": 11
+        },
+        "label": {
+            "fontFace": "Montserrat",
+            "color": "#FFFFFF",
+            "fontSize": 10
+        }
+    },
+    "visualStyles": {
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": { "solid": { "color": "#06071B" } },
+                        "transparency": 0
+                    }
+                ],
+                "outspace": [
+                    {
+                        "color": { "solid": { "color": "#06071B" } }
+                    }
+                ]
+            }
+        },
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#06071B" } },
+                        "transparency": 70
+                    }
+                ]
+            }
+        }
+    }
+}
