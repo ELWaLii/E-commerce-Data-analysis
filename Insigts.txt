@@ -1,0 +1,30 @@
+1. Financial Performance and Revenue 
+Electronics generated the highest revenue among the visible categories, totaling 328,497.32.
+
+Fashion - Women and Automotive were the next highest earners, bringing in 272,098.53 and 266,532.76 respectively.
+
+2. Customer Loyalty and Lifetime Value
+Rebecca Arnold is a highly valuable customer, spending a total of 111,281.62 across 3 orders.
+
+Sharon Armstrong placed the most orders in the visible list with 4 orders, totaling 92,017.45, though her latest shipping status shows as 'Pending'.
+
+3. Sales Trends and Seasonality
+Sales peaked in July and August of 2023, with each month recording 31 orders.
+
+June 2023 was also a strong month with 30 orders, indicating a busy summer period.
+
+There was a significant drop in order volume in September 2023, falling to just 8 orders.
+
+4. Payment Method Preferences
+Credit Card is the most frequently used payment method, accounting for 82 transactions and generating 881,509.71 in total revenue.
+
+PayPal is the second most popular choice with 64 transactions.
+
+While Cash on Delivery only had 28 transactions, it accounted for a significant amount of money at 594,082.86.
+
+5. Operational and Inventory Risks
+Several products have critically low stock levels requiring immediate attention from suppliers.
+
+The Jones-Hensley Office Chair is nearly out of stock with only 1 unit remaining, and the supplier is Patterson, Camacho and White.
+
+Knight Sandals and Glenn Running Shoes are also very low, with 3 and 5 units left respectively.

@@ -1,0 +1,151 @@
+﻿ProductID,ProductName,CategoryID,SupplierID,UnitPrice,StockQuantity,Unit
+1,Horton Blender,4,8,1855.17,125,short
+2,Mcclure T-Shirt,5,18,1693.37,456,bit
+3,Gilbert-Crosby SSD Drive,3,3,1057.69,15,far
+4,Vaughn Diapers Pack,7,18,1265.86,13,life
+5,Sampson-Foley Baby Monitor,7,19,1051.7,229,bit
+6,Richardson Yoga Mat,9,23,1898.22,81,ask
+7,Hill-Donaldson Car Charger,14,25,698.29,110,thus
+8,Davis-Lewis Board Game,11,12,236.4,49,purpose
+9,Maddox Pasta Pack,12,24,664.98,22,car
+10,Harris First Aid Kit,15,13,316.44,472,peace
+11,Li SSD Drive,3,20,736.48,321,get
+12,Kramer Pasta Pack,12,2,484.76,35,able
+13,Garrison-Thomas Perfume,8,8,2463.13,437,case
+14,King Air Fryer,4,27,698.54,325,agree
+15,Smith Rice Bag,12,22,928.6,107,per
+16,Smith-Baker Yoga Mat,9,18,1524.78,87,card
+17,Fisher Face Cream,8,30,1158.34,138,list
+18,Palmer-Rodriguez Sandals,18,25,1713.11,431,most
+19,Dougherty Phone Case,2,11,2055.4,412,short
+20,Boyd Dining Table,13,19,170.14,467,ask
+21,Boone-Simmons Puzzle,11,29,1640.32,202,box
+22,Joseph-Wallace Blood Pressure Monitor,15,24,665.88,126,way
+23,Morris Wallet,18,14,660.54,299,attorney
+24,Hill Tool Kit,19,17,908.18,70,pay
+25,Joseph Dog Food,16,4,1890.68,440,financial
+26,Wagner-Jordan Jeans,5,20,1981.24,216,student
+27,Wilson Monitor,3,17,957.14,239,ok
+28,Glenn Running Shoes,9,22,2152.65,5,job
+29,Wilcox-Ross Washing Machine,4,21,1878.44,393,show
+30,Edwards Board Game,11,15,737.28,80,reduce
+31,Brooks-Hernandez Headphones,1,6,2429.86,390,wind
+32,Jones-Decker Wrist Watch,17,27,2176.94,152,better
+33,Davis-Rodgers Ring,17,25,501.28,191,task
+34,Hawkins Heels,6,17,2383.98,472,or
+35,Rivera Router,1,4,813.77,9,reduce
+36,Parrish-Griffith Coffee Beans,12,29,602.43,123,field
+37,Edwards Garden Hose,19,27,218.71,248,clear
+38,Olson SSD Drive,3,22,1915.76,65,only
+39,Wilson-Ramirez Aquarium Filter,16,28,416.99,270,draw
+40,Bruce-Villegas Whiteboard,20,18,2411.09,475,tell
+41,Austin Baby Bottle,7,21,1000.49,343,woman
+42,Gallegos Honey Jar,12,4,2249.54,231,scientist
+43,Dorsey-Bell Face Cream,8,19,164.74,10,course
+44,Knight Sandals,18,3,1473.16,3,available
+45,Figueroa Phone Case,2,28,173.16,16,benefit
+46,Moreno Board Game,11,22,1287.82,142,coach
+47,Collins-Nguyen Cat Litter,16,30,1350.39,370,year
+48,Carlson Flower Pot,19,16,1184.31,401,somebody
+49,Williams Tire Inflator,14,14,240.34,337,language
+50,Lawson-Perry Honey Jar,12,24,1030.7,442,dinner
+51,Wilson Smartphone,2,11,156.23,372,resource
+52,Tucker Microwave,4,15,483.02,274,indicate
+53,Brown Sneakers,5,8,462.8,236,speak
+54,Duran Monitor,3,18,2021.02,438,generation
+55,Smith Blender,4,27,1632.1,276,law
+56,Anderson Smart TV,1,8,2316.29,434,score
+57,Mason Scarf,6,28,1216.67,109,sure
+58,Jones-Hensley Office Chair,13,13,415.77,1,and
+59,Smith-Morse Bicycle,9,24,716.7,356,training
+60,Johnston-Berry Travel Bag,18,7,391.22,151,security
+61,Butler Power Bank,2,24,1840.66,31,garden
+62,Solis Board Game,11,17,130.11,244,magazine
+63,Gillespie Necklace,17,3,146.91,260,either
+64,Chapman-Warren Dress,6,28,1489.61,345,individual
+65,Reese-Walker Lipstick,8,19,304.12,455,start
+66,Jones Hair Dryer,8,3,1488.33,317,build
+67,Hicks Dash Cam,14,30,1415.24,161,short
+68,Briggs Dumbbell Set,9,8,1675.97,160,decade
+69,Morrison Bicycle,9,10,331.54,330,bag
+70,Bean Face Mask,15,3,2322.9,479,minute
+71,Webster-Wolf Camera,1,4,1554.79,288,list
+72,Glass SSD Drive,3,5,536.82,135,probably
+73,Lin-Burton Olive Oil,12,10,2198.78,189,city
+74,Jones-Ramos Scarf,6,10,2085.19,360,floor
+75,Vargas-Bell File Cabinet,20,18,24.52,418,back
+76,Murray-Johnson Notebook,10,9,2347.63,68,home
+77,Jones-Lin Blender,4,9,1857.33,79,top
+78,Gilbert Desk Organizer,10,7,530.52,175,if
+79,Carpenter-Best Running Shoes,9,30,1223.89,463,single
+80,Cole Smartphone,2,9,1587.54,424,reach
+81,Morris Smartphone,2,21,837.22,66,more
+82,Rosario Dumbbell Set,9,23,1854.37,282,board
+83,Haas-Miller Dash Cam,14,29,29.13,38,race
+84,Williams Belt,5,19,94.89,189,left
+85,Warren-Bishop Sandals,18,10,1077.32,21,himself
+86,Hardin-Hughes Olive Oil,12,22,2247.82,107,stage
+87,Shelton-Williams Shampoo,8,29,887.43,286,program
+88,Cook Dash Cam,14,30,1874.95,473,imagine
+89,King-York Face Cream,8,6,2440.63,415,what
+90,Marks Car Vacuum,14,11,452.5,473,chance
+91,Collins-Douglas Tire Inflator,14,23,670.68,403,recognize
+92,Anderson-Fletcher Air Fryer,4,16,2181.06,439,become
+93,Hansen-Schneider Face Cream,8,12,2042.38,235,get
+94,Santiago Pen Set,10,7,561.19,337,reveal
+95,Davis Dining Table,13,25,700.11,35,affect
+96,Parker-Bean Tent,9,22,1605.5,204,growth
+97,Lee-Cooke Boots,18,29,2348.4,59,clear
+98,Phillips Dumbbell Set,9,2,1453.57,135,movement
+99,Conley Washing Machine,4,26,1089.24,373,great
+100,Anderson Remote Car,11,4,1517.49,261,theory
+101,Wise Bed Frame,13,23,479.25,22,left
+102,Jenkins Car Vacuum,14,18,1302.2,412,serve
+103,Montes Baby Bottle,7,22,1081.09,485,feel
+104,Bowers Lego Set,11,4,788.22,434,table
+105,Mckee-Lee Desk Organizer,10,11,776.67,209,resource
+106,Joyce Dining Table,13,14,1388.26,98,idea
+107,Rose Sofa,13,13,1540.71,154,suddenly
+108,Taylor Backpack,18,14,763.17,107,two
+109,Spencer-Garcia Flower Pot,19,15,1638.49,238,throughout
+110,Rosales Blood Pressure Monitor,15,29,1280.38,406,explain
+111,Whitehead-Hernandez Dress,6,21,713.05,339,leave
+112,Potts Desk Lamp,20,25,238.0,487,technology
+113,Wilkerson-Arias Perfume,8,5,565.48,101,join
+114,Sanders Smart TV,1,20,615.88,243,eat
+115,Vang-Brooks Monitor,3,19,1039.03,322,ahead
+116,Galvan-Combs Kids Backpack,7,5,1238.47,124,rate
+117,Moody-Taylor Smart TV,1,6,1947.16,112,few
+118,Horton-Taylor Earrings,17,30,130.29,127,season
+119,West-Smith Air Fryer,4,22,337.68,237,base
+120,Scott Ring,17,25,1490.65,486,official
+121,Lynch First Aid Kit,15,17,2038.44,456,economy
+122,Martinez-Allen Dash Cam,14,24,1117.55,81,purpose
+123,Bryant Pet Bed,16,27,651.68,126,picture
+124,Smith Running Shoes,9,9,1214.07,122,charge
+125,Patterson-Mendez Vitamin Pack,15,9,1785.29,120,effect
+126,Butler Action Figure,11,5,2233.1,41,herself
+127,Ashley Jeans,5,23,960.67,78,movement
+128,Spencer Baby Stroller,7,18,1040.1,169,prove
+129,Zavala-King Thermometer,15,14,160.35,426,admit
+130,Kramer-Cooper Bed Frame,13,28,2365.42,10,significant
+131,Fuller Tool Kit,19,12,1195.06,482,go
+132,Williams Backpack,10,27,2134.35,488,ground
+133,Thompson Dash Cam,14,26,1870.05,279,safe
+134,Welch-Cain Stapler,20,14,1223.13,139,at
+135,Parsons Dog Food,16,22,975.2,342,animal
+136,Blackwell Sofa,13,5,2102.06,470,worker
+137,Robertson-Hays File Cabinet,20,19,72.28,201,of
+138,King-Mullins Garden Hose,19,5,214.45,219,cut
+139,Kelly-Norman Blood Pressure Monitor,15,11,130.46,194,tree
+140,Rivera Kids Backpack,7,29,820.48,389,visit
+141,Paul-Kline Dining Table,13,14,1881.26,425,imagine
+142,Beltran-Crawford Yoga Mat,9,18,1178.42,383,modern
+143,Glass-Stone Screen Protector,2,25,564.43,35,suddenly
+144,Acosta Smartphone,2,27,2374.28,102,law
+145,Carney Router,1,16,385.19,64,board
+146,Murphy Washing Machine,4,23,2369.65,238,follow
+147,Morrison-Simmons Tent,9,24,423.63,310,road
+148,Bell-Williams Microwave,4,19,2411.98,55,true
+149,Mendez-Graham Headphones,1,13,1441.61,464,purpose
+150,Jones Sofa,13,27,194.61,353,into
